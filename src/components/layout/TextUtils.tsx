@@ -23,6 +23,7 @@ const TextUtils = () => {
   const lowercase = () => {
     let newtext = text.toLowerCase();
     settext(newtext);
+    showAlert("LowerCase Converted")
   };
   const copyText = (): void => {
     const textInput: HTMLInputElement | null = document.getElementById(
@@ -43,13 +44,16 @@ const TextUtils = () => {
     } else {
       console.error("Text input element not found");
     }
+    showAlert("CopyToClipboard")
   };
   const cleartext = () => {
     settext("");
+    showAlert("Clear")
   };
   const RextraS = () => {
     let newtext = text.split(/[ ]+/);
     settext(newtext.join(" "));
+  
   };
   return (
     <div className="max-w-screen-lg mx-auto">
