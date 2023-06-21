@@ -39,7 +39,7 @@ const TextUtils = () => {
           console.log("Text copied to clipboard");
         })
         .catch((error) => {
-          console.error("Failed to copy text to clipboard:", error);
+          console.error(error);
         });
     } else {
       console.error("Text input element not found");
