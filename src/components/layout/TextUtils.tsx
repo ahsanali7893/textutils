@@ -13,7 +13,7 @@ const TextUtils = () => {
     const popup = document.createElement("div");
     popup.classList.add("popup");
     popup.textContent = message;
-    document.body.appendChild(popup);
+    document.body.appendChild(popup);    
    
     setTimeout(() => {
       document.body.removeChild(popup);
