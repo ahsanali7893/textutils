@@ -14,7 +14,7 @@ const TextUtils = () => {
     popup.classList.add("popup");
     popup.textContent = message;
     document.body.appendChild(popup);
-
+   
     setTimeout(() => {
       document.body.removeChild(popup);
     }, 1000); // Remove the popup after 3 seconds (adjust the duration as needed)
