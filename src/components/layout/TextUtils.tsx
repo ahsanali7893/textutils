@@ -85,31 +85,31 @@ const TextUtils = () => {
       <div className="flex flex-wrap ">
         <button
           onClick={uppercase}
-          className="text-white my-2 bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm"
+          className="text-white my-2 bg-fuchsia-600 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           UpperCase
         </button>
         <button
           onClick={lowercase}
-          className="text-white mx-2 my-2  bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm"
+          className="text-white mx-2 my-2  bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           LowerCase
         </button>
         <button
           onClick={copyText}
-          className="text-white mx-2 my-2 bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm"
+          className="text-white mx-2 my-2 bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           Copy To Clipboard
         </button>
         <button
           onClick={cleartext}
-          className="text-white mx-2 my-2 bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm"
+          className="text-white mx-2 my-2 bg-violet-700 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           Clear Text
         </button>
         <button
           onClick={RextraS}
-          className="text-white mx-2 my-2 bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm"
+          className="text-white mx-2 my-2 bg-amber-800 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           Remove Extra Spaces
         </button>
