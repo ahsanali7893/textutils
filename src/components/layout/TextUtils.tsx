@@ -7,7 +7,7 @@ const TextUtils = () => {
     let newtext = text.toUpperCase();
     settext(newtext);
     showAlert("UpperCase Converted");
-    // showalert(" UpperCase converted ", "success");
+    
   };
   const showAlert = (message: string | null) => {
     const popup = document.createElement("div");
@@ -17,7 +17,7 @@ const TextUtils = () => {
    
     setTimeout(() => {
       document.body.removeChild(popup);
-    }, 1000); // Remove the popup after 3 seconds (adjust the duration as needed)
+    }, 1000); 
   };
 
   const lowercase = () => {
@@ -57,14 +57,14 @@ const TextUtils = () => {
   };
   return (
     <div
-    className=""
+    className="h-screen"
     style={{
       backgroundImage: `url(5039684.jpg)`,
       backgroundSize: "cover",
       backgroundPosition: "center",
       opacity: 0.9,
       zIndex: "auto",
-      height: 620 ,
+      
     }}
   >
     <div className="max-w-screen-lg mx-auto px-5 sm:px-0">
