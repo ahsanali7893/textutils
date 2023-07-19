@@ -67,7 +67,9 @@ const TextUtils = () => {
       
     }}
   >
-    <div className="max-w-screen-lg mx-auto px-5 sm:px-0">
+    
+    <div className="max-w-screen-lg mx-auto px-5 sm:px-0 py-12">
+   
       <div className="relative mb-4 ">
         <label htmlFor="message" className="leading-7 text-sm text-yellow-600 font-bold">
           TextUtils
@@ -114,6 +116,50 @@ const TextUtils = () => {
           Remove Extra Spaces
         </button>
       </div>
+      <div className="overflow-x-auto py-11">
+      <div className="flex">
+        <div className="flex-shrink-0">
+          <div className="bg-gray-200 w-64 h-64 mx-4 rounded-lg p-4">
+            <img
+              className="object-cover w-full h-full mb-4"
+              src="coming.jpg"
+              alt="Card Image"
+            />
+            {/* Card Content */}
+          </div>
+        </div>
+        <div className="flex-shrink-0">
+          <div className="bg-gray-200 w-64 h-64 mx-4 rounded-lg p-4">
+            <img
+              className="object-cover w-full h-full mb-4"
+              src="coming.jpg"
+              alt="Card Image"
+            />
+            {/* Card Content */}
+          </div>
+        </div>
+        <div className="flex-shrink-0">
+          <div className="bg-gray-200 w-64 h-64 mx-4 rounded-lg p-4">
+            <img
+              className="object-cover w-full h-full mb-4"
+              src="coming.jpg"
+              alt="Card Image"
+            />
+            {/* Card Content */}
+          </div>
+        </div>
+        <div className="flex-shrink-0">
+          <div className="bg-gray-200 w-64 h-64 mx-4 rounded-lg p-4">
+            <img
+              className="object-cover w-full h-full mb-4"
+              src="coming.jpg"
+              alt="Card Image"
+            />
+            {/* Card Content */}
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
     </div>
   );
