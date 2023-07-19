@@ -56,9 +56,20 @@ const TextUtils = () => {
   
   };
   return (
-    <div className="max-w-screen-lg mx-auto">
+    <div
+    className=""
+    style={{
+      backgroundImage: `url(5039684.jpg)`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      opacity: 0.9,
+      zIndex: "auto",
+      height: 620 ,
+    }}
+  >
+    <div className="max-w-screen-lg mx-auto px-5 sm:px-0">
       <div className="relative mb-4 ">
-        <label htmlFor="message" className="leading-7 text-sm text-gray-600">
+        <label htmlFor="message" className="leading-7 text-sm text-yellow-600 font-bold">
           TextUtils
         </label>
         <textarea
@@ -103,6 +114,7 @@ const TextUtils = () => {
           Remove Extra Spaces
         </button>
       </div>
+    </div>
     </div>
   );
 };
