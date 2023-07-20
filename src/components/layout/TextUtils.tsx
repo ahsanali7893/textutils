@@ -111,7 +111,7 @@ const TextUtils = () => {
         </button>
         <button
           onClick={RextraS}
-          className="text-white mx-2 my-2 bg-amber-800 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
+          className="text-white my-2 bg-amber-800 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           Remove Extra Spaces
         </button>
