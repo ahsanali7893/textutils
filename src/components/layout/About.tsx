@@ -6,7 +6,18 @@ const About = () => {
       <div className="container">
         <div className="h-screen">
           <div className="max-w-screen-lg mx-auto py-16">
-            <h2 className="text-center ">About Us</h2>
+            <h2 className="text-center font-bold">About Us</h2>
+            <p className="text-center">
+              Welcome to TextUtils! Our website offers a suite of simple yet
+              powerful text manipulation tools to enhance your writing and
+              streamline your tasks. From text formatting and case conversion to
+              removing duplicates and more, TextUtils is your go-to destination
+              for all things text-related. Say goodbye to manual editing and let
+              TextUtils handle the heavy lifting for you. Experience efficiency
+              and convenience like never before with our user-friendly interface
+              and lightning-fast processing. Start exploring the world of text
+              transformation with TextUtils today!
+            </p>
           </div>
         </div>
       </div>
