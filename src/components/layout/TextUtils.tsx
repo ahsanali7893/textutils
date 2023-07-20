@@ -87,13 +87,13 @@ const TextUtils = () => {
       <div className="flex flex-wrap ">
         <button
           onClick={uppercase}
-          className="text-white sm:my-2 sm:mx-0 bg-fuchsia-600 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
+          className="text-white my-2 mx-0 bg-fuchsia-600 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           UpperCase
         </button>
         <button
           onClick={lowercase}
-          className="text-white  sm:mx-2 sm:my-2  bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
+          className="text-white  mx-2 my-2  bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           LowerCase
         </button>
