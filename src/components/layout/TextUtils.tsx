@@ -87,7 +87,7 @@ const TextUtils = () => {
       <div className="flex flex-wrap ">
         <button
           onClick={uppercase}
-          className="text-white my-2 mx-0 bg-fuchsia-600 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
+          className="text-white my-2  bg-fuchsia-600 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           UpperCase
         </button>
@@ -99,7 +99,7 @@ const TextUtils = () => {
         </button>
         <button
           onClick={copyText}
-          className="text-white mx-2 my-2 bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
+          className="text-white my-2 bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-sm duration-300"
         >
           Copy To Clipboard
         </button>
