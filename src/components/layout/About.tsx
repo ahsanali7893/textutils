@@ -1,20 +1,17 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
-
-const About = (props: Props) => {
+const About = () => {
   return (
     <div>
-        <div className="container">
-            <div>
-                <img src="about.jpg" className='' />
-            </div>
-
-            <div>
-            </div>
+      <div className="container">
+        <div className="h-screen">
+          <div className="max-w-screen-lg mx-auto py-16">
+            <h2 className="text-center ">About Us</h2>
+          </div>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
