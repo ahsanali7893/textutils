@@ -28,7 +28,7 @@ function Header() {
                 Home
               </Link>
               <Link
-                to={"#about"}
+                to="#about"
                 className="text-white hover:text-yellow-600 duration-200"
               >
                 About
