@@ -5,7 +5,7 @@ const About = () => {
     <div>
       <div className="container">
         <div className="h-screen">
-          <div className="max-w-screen-lg mx-auto py-16 px-5">
+          <div className="max-w-screen-sm mx-auto py-16 px-5">
             <h2 className="text-center font-bold">About Us</h2>
             <p className="text-center">
               Welcome to TextUtils! Our website offers a suite of simple yet
